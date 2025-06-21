@@ -6,5 +6,7 @@ dist/
 wheels/
 *.egg-info
 
+qwen-vl-finetune/output/
+
 # venv
 .venv
