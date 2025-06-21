@@ -26,12 +26,18 @@ VIDEOCHATGPT = {
     "data_path": "PATH_TO_VIDEOCHATGPT_DATA",
 }
 
+DEMO = {
+    "annotation_path": "/workspace/Kaggle/VLM/Qwen2.5-VL/qwen-vl-finetune/demo/single_images.json",
+    "data_path": "/workspace/Kaggle/VLM/Qwen2.5-VL/qwen-vl-finetune",
+}
+
 data_dict = {
     "cambrian_737k": CAMBRIAN_737K,
     "cambrian_737k_pack": CAMBRIAN_737K_PACK,
     "mp_doc": MP_DOC,
     "clevr_mc": CLEVR_MC,
     "videochatgpt": VIDEOCHATGPT,
+    "demo": DEMO,
 }
 
 
